@@ -1,0 +1,17 @@
+# Ignore Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Ignore provider binaries
+infra/.terraform/providers/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore other large or unnecessary files
+*.log
+*.zip
+*.tar.gz
