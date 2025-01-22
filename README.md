@@ -18,3 +18,12 @@ This project uses Terraform to deploy and manage the following Google Cloud Plat
    git clone https://github.com/your-username/terraform-gcp-project.git
    cd terraform-gcp-project
 
+Outputs
+
+After applying the configuration, Terraform will output:
+
+    Bucket URL: The URL of the Cloud Storage bucket.
+
+    Load Balancer IP: The IP address of the load balancer.
+
+    DNS Name: The DNS name for the website.
